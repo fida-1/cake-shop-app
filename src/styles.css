@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e4d9;
+    background-image: url('assets/pattern.png');
+  }
+  
+  #mainheader {
+    background-color: #9c93c2;
+  }
+  
+  #leftmenu {
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto 20px;
+  }
+  
+  .searchbox {
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+  }
+  
+  #main {
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    clear: both;
+    width: 100%;
+  }
+  
+  table,
+  td,
+  th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  

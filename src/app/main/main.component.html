@@ -1,0 +1,100 @@
+<p>main works!</p>
+<div style="width:1000px;margin-left: auto;margin-right: auto;">
+    <aside id="leftmenu">
+      <img src="assets/logo.png" />
+      <header>
+        <h4 style="text-align: center;">Explorez nos cakes</h4>
+      </header>
+      <input type="search" class="searchbox" placeholder="Search our store" />
+      <ul>
+        <li><a href="#">Tous</a></li>
+        <li><a href="#">Cheese cakes</a></li>
+        <li><a href="#">Tartes</a></li>
+        <li><a href="#promos">Promotions</a></li>
+      </ul>
+    </aside>
+  
+    <main id="main">
+      <button (click)="save()" type="button">J'aime</button>
+      <span id="favorite"></span>
+      <article>
+        <header>
+          <h1 style="font-size:35px;color:#a593c2">Bienvenue à notre boutique !</h1>
+        </header>
+        <h2>Notre histoire</h2>
+        <p>
+          Pendant de nombreuses années, Cake Shop a préparé les gâteaux les plus délicieux chez eux en Tunisie. En 2013, nous avons ouvert notre première boutique dans une petite rue charmante au cœur de Tunis. Les gens du monde entier sont tombés amoureux de nos moelleux gâteaux, nos cheesecakes divins et nos tartes aux pommes épicées...
+        </p>
+        <figure>
+          <img src="assets/cakes.jpg" width="600" alt="La vitrine de notre boutique" />
+          <figcaption>Vitrine de la boutique Cake's shop</figcaption>
+        </figure>
+        <hr />
+        <section id="promos">
+          <h3 style="font-family:verdana;">&nbsp;Nos promotions hebdomadaire</h3>
+          <h4>Cheese cake</h4>
+          0dt - 4 personnes<br />
+          <img src="assets/cheesecake.jpg" width="500" alt="Cheesecake avec caramel" height="300" />
+        </section>
+      </article>
+  
+      <table border="1">
+        <caption>Our delicious selection of pies for you to enjoy!</caption>
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Nom de la tarte/Cake</th>
+            <th>Description</th>
+            <th>Prix</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="assets/cheesecakesmall.jpg" width="100" /></td>
+            <td>Cheese cake</td>
+            <td>Un pur plaisir.</td>
+            <td>12Dt</td>
+            <td>Voir détails</td>
+          </tr>
+          <tr>
+            <td><img src="assets/cherrypiesmall.jpg" width="100"></td>
+            <td>Cherry pie</td>
+            <td>La classique!</td>
+            <td>18Dt</td>
+            <td>Voir détails</td>
+        </tr>
+        <tr>
+                <td><img src="assets/cranberrypiessmall.jpg" width="100"></td>
+                <td>Cranberry pie</td>
+                <td>En un mot ... Onctueuse !</td>
+                <td>16DT</td>
+                <td>Voir détails</td>
+        </tr>
+        <tr>
+            <td><img src="assets/peachpiesmall.jpg" width="100"></td>
+            <td>Peach pie</td>
+            <td>Un délice!</td>
+            <td>18Dt</td>
+            <td>Voir détails</td>
+        </tr>
+        <tr>
+            <td><img src="assets/pumpkinpiesmall.jpg" width="100"></td>
+            <td>Pumpkin pie</td>
+            <td>Le sommet du goût !</td>
+            <td>17Dt</td>
+            <td>Voir détails</td>
+        </tr>
+        <tr>
+            <td><img src="assets/strawberrycheesecakesmall.jpg" width="100"></td>
+            <td>Strawberry Cheese Cake</td>
+            <td>L'authentique</td>
+            <td>13DT</td>
+            <td>Voir détails</td>
+        </tr>
+          <!-- Other rows can be added similarly -->
+        </tbody>
+      </table>
+    </main>
+  </div>
+  
